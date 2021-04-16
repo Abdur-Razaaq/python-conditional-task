@@ -7,8 +7,6 @@
 current_speed = float(input("Enter your current speed: "))
 average_allowed_speed = float(input("Enter the average allowed speed: "))
 
-# To use method 1 close off method 2 with multiline comment tags
-
 """
 # Method 1
 
@@ -58,11 +56,6 @@ else:
     print("OK!")
 """
 
-
-# To use method 2 close off method 1 with multiline comment tags
-
-
-
 # Method 2
 
 demerit = (current_speed - average_allowed_speed) // 5
@@ -75,7 +68,3 @@ if current_speed >= average_allowed_speed:
 
 else:
     print("OK!")
-
-# Built two methods. Method 1 is longer but it was the idea that came two me first.
-# Method 2 took a bit to figure out as an equation was not something I thought of.
-# Method 2 is much shorter but was slightly more trickier for me to build.
